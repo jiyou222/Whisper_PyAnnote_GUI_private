@@ -1,0 +1,4 @@
+easygui
+ttkbootstrap
+openai-whisper
+requests

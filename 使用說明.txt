@@ -1,0 +1,24 @@
+1.安裝python
+檢查
+python --version
+
+2.安裝FFmpeg
+檢查
+ffmpeg -version
+
+3.申請token
+必須上
+huggingface 申請token
+https://huggingface.co/settings/tokens
+
+a. 先進行註冊帳號，接著進入個人資訊>settings>access tokens
+b. 選擇create new token
+c. token type選擇read
+d. 將token記起來
+e. 點開資料夾內的token.txt 把token複製進去
+
+4.點擊install.bat 會創建虛擬環境並且安裝所需要的項目
+
+5.此時可點擊 check.py 檢測是否能使用cuda，這邊要注意，如果閃退應該是相關項目沒安裝，並不表示安裝失敗
+
+6.點runGUI.bat 即可運行使用
